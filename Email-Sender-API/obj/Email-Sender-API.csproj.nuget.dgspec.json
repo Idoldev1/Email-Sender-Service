@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj": {}
+    "C:\\Users\\tosin\\Desktop\\Yinka Files\\Test Folder\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj": {
+    "C:\\Users\\tosin\\Desktop\\Yinka Files\\Test Folder\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj",
+        "projectUniqueName": "C:\\Users\\tosin\\Desktop\\Yinka Files\\Test Folder\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj",
         "projectName": "Email-Sender-API",
-        "projectPath": "C:\\Users\\User\\Downloads\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\Email-Sender-Service\\Email-Sender-API\\obj\\",
+        "projectPath": "C:\\Users\\tosin\\Desktop\\Yinka Files\\Test Folder\\Email-Sender-Service\\Email-Sender-API\\Email-Sender-API.csproj",
+        "packagesPath": "C:\\Users\\tosin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tosin\\Desktop\\Yinka Files\\Test Folder\\Email-Sender-Service\\Email-Sender-API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tosin\\NuGet.Config",
+          "C:\\Users\\tosin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -70,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
