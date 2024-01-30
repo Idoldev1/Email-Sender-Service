@@ -21,12 +21,14 @@ public class MailService : IMailServices
     
     public async Task SendMailAsync(MailRequest mailRequest)
     {
-        var mail = new MimeMessage();
-        mail.Sender = MailboxAddress.Parse(_mailSettings.Mail);
+        var mail = new MimeMessage
+        {
+            Sender = MailboxAddress.Parse(_mailSettings.Mail)
+        };
         mail.To.Add(MailboxAddress.Parse(mailRequest.RecipientMail));
         mail.Subject = mailRequest.Subject;
         var builder = new BodyBuilder();
-        if (mailRequest.Attachments != null)
+        /*if (mailRequest.Attachments != null)
         {
             byte[] fileBytes;
             foreach (var file in mailRequest.Attachments)
@@ -42,7 +44,7 @@ public class MailService : IMailServices
 
                 }
             }
-        }
+        }*/
         builder.HtmlBody = mailRequest.Body;
         mail.Body = builder.ToMessageBody();
         using var smtp = new SmtpClient();
